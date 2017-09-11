@@ -1,0 +1,148 @@
+/* 
+--- Hexes ---
+
+
+--- Fonts ---
+	
+*/
+/*----------------------*/
+/*------- Colors -------*/
+/*----------------------*/
+
+
+
+/*--------------------------*/
+/*------- Typography -------*/
+/*--------------------------*/
+body {
+	font-family: 'Maven Pro', sans-sarif;
+}
+
+
+/*-----------------------*/
+/*------- Utility -------*/
+/*-----------------------*/
+.img-responsive {
+	width: 100%;
+}
+
+
+/*-----------------------*/
+/*------- General -------*/
+/*-----------------------*/
+h1 {
+	margin: 0;
+}
+section {
+	padding: 2rem 0;
+}
+button {
+	
+}
+button.btn-load-more {
+    margin: 0 auto;
+	background-color: #292b2c;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+button.btn-load-more:focus {
+	color: white;
+}
+button.btn-load-more:hover {
+	background-color: #6b6b6b;
+	color: white;
+}
+
+
+/*----------------------*/
+/*------- Header -------*/
+/*----------------------*/
+header {
+	background-color: #292b2c;
+	padding: 2rem 0;
+	text-align:center;
+	color: white;
+}
+
+
+/*------------------------*/
+/*------- Homepage -------*/
+/*------------------------*/
+.follower {
+	margin-bottom: 1rem;
+}
+section#user h2 {
+	display:none;
+	font-weight: 600;
+}
+
+/*-----------------------*/
+/*------- Subpage -------*/
+/*-----------------------*/
+
+
+
+
+/*---------------------*/
+/*------- Forms -------*/
+/*---------------------*/
+form#searchForm {
+	position: relative;
+}
+input.search-input {
+	width: 100%;
+	border: none;
+	border-bottom: 3px solid black;
+	background-color: transparent;
+	padding: 1rem 0rem;
+	font-size: 30px;
+	outline: none;
+}
+button.btn-search {
+	background-color: transparent;
+	font-size: 20px;
+	display:block;
+	margin: 1rem auto 0;
+	padding: 1rem;
+}
+
+
+/*----------------------*/
+/*------- Footer -------*/
+/*----------------------*/
+
+
+/*-----------------------------*/
+/*------- Media Queries -------*/
+/*-----------------------------*/
+
+ /* Medium Devices and Down */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Small Devices, Tables and Down */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Extra Small Devices, Phones and Down */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* SUPER Small Devices, Phones and Down*/ 
+@media only screen and (max-width : 480px) {
+	input.search-input {
+		font-size: 24px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*******************************/
+
