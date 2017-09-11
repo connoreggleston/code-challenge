@@ -9,11 +9,13 @@ TABLE OF CONTENTS
 ---------------------
  
 1) Overview
+
 	The purpose of this repository is to allow a user to search a GitHub user name and return specific information back to the display. When a request is made (on submit) from the form, Javascript fires an AJAX call to the GitHub API. The API call returns requested information as a JSON string. 
 	Once the JSON string is returned, the javascript manipulates the data to display as determined by the developer. Specifically, the basic user information as well as a list of "Followers" the user has obtained.
 	
 
 2) Installations / Requirements
+
 	This module has the following addons via CDN:
 	- jQuery
 	- Bootstrap
@@ -22,6 +24,7 @@ TABLE OF CONTENTS
 	
 	
 3) Configuration
+
 	Versions:
 	- jQuery		v2.2.4
 	- Bootstrap 	v3.3.7
