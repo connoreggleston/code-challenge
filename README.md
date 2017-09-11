@@ -28,6 +28,7 @@ TABLE OF CONTENTS
 
 
 4) Issues / Troubleshooting
+
 	UI/UX: 
 	- The layout is pretty basic. I did, however, have issues with the hide/show classes that home with Bootstrap. Because if this, I had to settle for inline styles (display:none, display:block, etc.). I am still researching this issue.
 	
